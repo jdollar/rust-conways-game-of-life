@@ -19,7 +19,7 @@ Feel free to make adjustments to the config files to try out different variation
 ```shell
 cargo run [--release]
 
-// On Fedora 33+ and wayland window manager machines
+// On Fedora 32+ and wayland window manager machines
 // https://github.com/amethyst/amethyst/issues/1846
 // Believe this is because of a upstream rendy dependency
 // in amethyst as of 2020/08/08
