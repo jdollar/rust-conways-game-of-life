@@ -1,0 +1,14 @@
+[package]
+name = "rust-conways-game-of-life"
+version = "0.1.0"
+authors = ["jdollar <dollarhidejoel@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amethyst = { version = "0.15", features = [ "vulkan" ] }
+specs = { version = "0.16.1", features = ["specs-derive"] }
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.7.3"
+rayon = "1.3.1"
