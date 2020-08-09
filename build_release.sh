@@ -10,7 +10,8 @@ if cargo "$@"; then
     tar -czvf $DEBUG_DIR/debug-conway-release.tar.gz -C $DEBUG_DIR {assets,config,rust-conways-game-of-life}
   fi
 
-  if [ -d "$DIR/target/release" ]; then
-    [ -d "$DIR/target/release" ] && cp -r "$DIR/config" "$DIR/target/release/config"
+  if [ -d $RELEASE_DIR ]; then
+    cp -r "${DIR}/"{config,assets} $RELEASE_DIR
+    tar -czvf $RELEASE_DIR/conway-release.tar.gz -C $RELEASE_DIR {assets,config,rust-conways-game-of-life}
   fi
 fi
