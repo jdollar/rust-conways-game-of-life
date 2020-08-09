@@ -1,8 +1,10 @@
 (
+  // Sets the number of cells the game board will contain
   board: (
-    height: 10.0,
-    width: 10.0,
+    height: 100.0,
+    width: 100.0,
   ),
+  // Ignore the seed value at the moment
   seed: [
     // Small infinite spawner from wiki. May need to figure out board size
     /*
@@ -28,5 +30,7 @@
     (2, 2),
     */
   ],
+  // This value is in seconds. This is how often the game
+  // will update the status of cells on screen
   tick_limit: 0.2,
 )

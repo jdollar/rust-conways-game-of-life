@@ -1,4 +1,4 @@
 (
   title: "Conway's Game of Life",
-  dimensions: Some((1500, 1500)),
+  dimensions: Some((800, 800)),
 )
