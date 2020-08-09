@@ -1,4 +1,4 @@
-# rust_conway_game_of_life
+# rust-conways-game-of-life
 
 This is a recreation of Conway's Game of Life utilizing the [amethyst](https://amethyst.rs/doc) game engine in rust to try out making something with the game engine and continue some experimenting with rust.
 
